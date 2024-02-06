@@ -8,7 +8,7 @@ public class DatabaseConnection {
         if(connection!=null) return connection;
 
         String user = "root";
-        String pwd = "fif@2014";
+        String pwd = "";
         String db = "SearchEngineApp";
         return getConnection(user,pwd,db);
     }
